@@ -1,0 +1,330 @@
+
+
+body {
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0%;
+}
+
+
+section {
+    background-color: #1A1A40;
+
+}
+
+.hero {
+    
+    background-image:url(https://wallpapercave.com/wp/lKlqTGz.jpg);
+    background-repeat: no-repeat;
+
+    /* background-color: #F15412; */
+    height: 100vh;
+    color: #F2F2F2;
+    font-size: 50px;
+
+}
+
+/* #05386B */
+
+footer {
+    height: 500px;
+    background-color: #1A1A40;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 15px;
+    color: #fff;
+}
+
+.logo {
+    height: 80px;
+    font-size: small;
+    /* margin: 30px; */
+}
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px
+}
+
+p {
+    /* margin: 0; */
+    font-size: 20px;
+    font-weight: 300px;
+    margin: 0px;
+}
+
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+    color: #F2F2F2;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    padding-bottom: 150px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+
+    color: white;
+}
+
+.information {
+    padding: 5px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card {
+    height: 500px;
+    width: 200px;
+    /* border: 1px solid black; */
+    /* box-shadow: 5px 5px 20px grey; */
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* color: black; */
+    padding: 80px;
+    color: white;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+
+.project-image {
+
+    width: 250;
+    /* border-radius: 125px; */
+}
+
+.Contact-Me {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* 1 hover style */
+/* .a {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+}
+
+.a {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.a:before {
+    content: '';
+    background: white;
+    color: #fff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.a:hover {
+    background-position: 0;
+}
+
+.a:hover::before {
+    width: 100%;
+}
+
+.a {
+    color: #fff;
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 2 hover style */
+/* .a1 {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    color: #fff;
+}
+
+.a1 {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+
+.a1:before {
+    content: '';
+    background: white;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.a1:hover {
+    background-position: 0;
+}
+
+.a1:hover::before {
+    width: 100%;
+}
+
+.a1 {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+/* 3 hover style */
+/* .a2 {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+}
+
+.a2 {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.a2:before {
+    content: '';
+    background: white;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.a2:hover {
+    background-position: 0;
+}
+
+.a2:hover::before {
+    width: 100%;
+}
+
+.a2 {
+    background-image: linear-gradient(to right,
+            white,
+            white 50%,
+            #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+/* } */ 
+
+#Header {
+    color: #F2F2F2;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+}
